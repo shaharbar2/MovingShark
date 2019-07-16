@@ -319,6 +319,7 @@ GameObject:
   m_Component:
   - component: {fileID: 520835430}
   - component: {fileID: 520835431}
+  - component: {fileID: 520835432}
   m_Layer: 0
   m_Name: PlayerGraphic
   m_TagString: Untagged
@@ -388,6 +389,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &520835432
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520835429}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c9cce6a3ba53f5b449af6914b0a0ace0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &788514752
 GameObject:
   m_ObjectHideFlags: 0
@@ -399,7 +419,7 @@ GameObject:
   - component: {fileID: 788514754}
   - component: {fileID: 788514755}
   - component: {fileID: 788514756}
-  - component: {fileID: 788514757}
+  - component: {fileID: 788514753}
   m_Layer: 0
   m_Name: PlayerShark
   m_TagString: Untagged
@@ -407,6 +427,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!70 &788514753
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788514752}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0866693, y: -0.03466741}
+  m_Size: {x: 2.0115592, y: 0.6995525}
+  m_Direction: 1
 --- !u!4 &788514754
 Transform:
   m_ObjectHideFlags: 0
@@ -434,7 +470,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9b10c2020883634782df054a8351d87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.005
+  moveSpeed: 1
+  rotateSpeed: 10
 --- !u!50 &788514756
 Rigidbody2D:
   serializedVersion: 4
@@ -456,22 +493,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &788514757
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 788514752}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.55
 --- !u!1 &1526279588
 GameObject:
   m_ObjectHideFlags: 0
@@ -489,7 +510,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1526279589
 RectTransform:
   m_ObjectHideFlags: 0
