@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b39ac0a-6455-4e1d-890a-6f50fa54fb14" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MovingShark/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MovingShark/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ART/Shark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ART/Shark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,14 +16,14 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+              <caret line="36" column="73" selection-start-line="36" selection-start-column="73" selection-end-line="36" selection-end-column="73" />
               <folding>
-                <marker date="1563277329511" expanded="true" signature="40:1553" ph="{...}" />
-                <marker date="1563277329511" expanded="true" signature="92:1551" ph="{...}" />
-                <marker date="1563277329511" expanded="true" signature="291:372" ph="{...}" />
-                <marker date="1563277329511" expanded="true" signature="419:650" ph="{...}" />
-                <marker date="1563277329511" expanded="true" signature="710:775" ph="{...}" />
-                <marker date="1563277329511" expanded="true" signature="815:1545" ph="{...}" />
+                <marker date="1563303269535" expanded="true" signature="40:1541" ph="{...}" />
+                <marker date="1563303269535" expanded="true" signature="92:1539" ph="{...}" />
+                <marker date="1563303269535" expanded="true" signature="291:372" ph="{...}" />
+                <marker date="1563303269535" expanded="true" signature="419:650" ph="{...}" />
+                <marker date="1563303269535" expanded="true" signature="710:775" ph="{...}" />
+                <marker date="1563303269535" expanded="true" signature="815:1533" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -86,6 +83,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B14123E-EC64-49DC-BDCE-6FE247C0F416/ea/69fece57/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B14123E-EC64-49DC-BDCE-6FE247C0F416/9e/7ffcda41/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B14123E-EC64-49DC-BDCE-6FE247C0F416/c1/aa71dc2a/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E0E21A1B-B641-40D1-ACF2-C5F2999F7FE8/55/3ef65b3a/Collision.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B14123E-EC64-49DC-BDCE-6FE247C0F416/82/9ecdb32c/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B14123E-EC64-49DC-BDCE-6FE247C0F416/24/16c25024/Input.cs" root0="SKIP_HIGHLIGHTING" />
@@ -97,17 +95,50 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="64" />
-    <option name="y" value="48" />
+    <option name="y" value="38" />
     <option name="width" value="1856" />
     <option name="height" value="994" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MovingShark" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MovingShark" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MovingShark" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MovingShark" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Scripts" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -150,12 +181,12 @@
       <workItem from="1562499893581" duration="16000" />
       <workItem from="1562746288851" duration="3106000" />
       <workItem from="1563273800340" duration="32000" />
-      <workItem from="1563273954645" duration="2765000" />
+      <workItem from="1563273954645" duration="2826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18068000" />
+    <option name="totallyTimeSpent" value="18129000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -167,10 +198,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="48" width="1856" height="994" extended-state="0" />
-    <editor active="true" />
+    <frame x="64" y="38" width="1856" height="994" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22281167" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22277778" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -186,7 +216,7 @@
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Unit Tests" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="13" side_tool="true" visible="true" weight="0.32934132" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" visible="true" weight="0.32934132" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -208,21 +238,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
-          <folding>
-            <marker date="1563277329511" expanded="true" signature="40:1553" ph="{...}" />
-            <marker date="1563277329511" expanded="true" signature="92:1551" ph="{...}" />
-            <marker date="1563277329511" expanded="true" signature="291:372" ph="{...}" />
-            <marker date="1563277329511" expanded="true" signature="419:650" ph="{...}" />
-            <marker date="1563277329511" expanded="true" signature="710:775" ph="{...}" />
-            <marker date="1563277329511" expanded="true" signature="815:1545" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B14123E-EC64-49DC-BDCE-6FE247C0F416/24/16c25024/Input.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6426">
@@ -255,6 +270,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
           <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B14123E-EC64-49DC-BDCE-6FE247C0F416/c1/aa71dc2a/Mathf.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="36" column="73" selection-start-line="36" selection-start-column="73" selection-end-line="36" selection-end-column="73" />
+          <folding>
+            <marker date="1563303269535" expanded="true" signature="40:1541" ph="{...}" />
+            <marker date="1563303269535" expanded="true" signature="92:1539" ph="{...}" />
+            <marker date="1563303269535" expanded="true" signature="291:372" ph="{...}" />
+            <marker date="1563303269535" expanded="true" signature="419:650" ph="{...}" />
+            <marker date="1563303269535" expanded="true" signature="710:775" ph="{...}" />
+            <marker date="1563303269535" expanded="true" signature="815:1533" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -40,7 +40,7 @@ namespace Boris.Game
 
             // interpolate rotate into the target angle
             transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, rotateSpeed * Time.deltaTime);
-            
+
             // progress toward to relative new direction
             transform.position += moveSpeed * Time.deltaTime * transform.right;
         }
