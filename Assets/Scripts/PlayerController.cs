@@ -8,7 +8,8 @@ namespace Boris.Game
         [SerializeField] private float rotateSpeed = 10.0f;
 
         private Quaternion targetRotation;
-        
+        private const double EPSILON_MOVEMENT = 0.05;
+
         void Update()
         {
             MovePlayerKeys();
@@ -29,11 +30,12 @@ namespace Boris.Game
 
         private void MovePlayerTouch()
         {
-
             Vector3 touchPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            
+            var direction = new Vector3(touchPosition.x, touchPosition.y, 0) - transform.position;
+            if (!(direction.magnitude > EPSILON_MOVEMENT)) return;
 
             // calculate the target angle
-            var direction = new Vector3(touchPosition.x, touchPosition.y, 0) - transform.position;
             var angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
             targetRotation = Quaternion.AngleAxis(angle, Vector3.forward);
@@ -46,10 +48,3 @@ namespace Boris.Game
         }
     }
 }
-
-
-
-
-
-
-
