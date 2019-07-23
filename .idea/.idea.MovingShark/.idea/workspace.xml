@@ -2,7 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b39ac0a-6455-4e1d-890a-6f50fa54fb14" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MovingShark/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MovingShark/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MovingShark/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MovingShark/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/LastBuild.buildreport" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastBuild.buildreport" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Android/Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Android/Data/Managed/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Android/Data/Managed/Unity.Analytics.DataPrivacy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Android/Data/Managed/Unity.Analytics.DataPrivacy.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Android/Data/Managed/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Android/Data/Managed/Unity.TextMeshPro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Android/Data/Managed/Unity.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Android/Data/Managed/Unity.Timeline.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Android/Data/boot.config" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Android/Data/boot.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Android/Data/globalgamemanagers" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Android/Data/globalgamemanagers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Android/Data/globalgamemanagers.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Android/Data/globalgamemanagers.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Android/Data/level0" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Android/Data/level0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Android/Data/sharedassets0.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Android/Data/sharedassets0.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Android/ScriptsOnlyCache.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Android/ScriptsOnlyCache.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/a95e36-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/a95e36-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/7bc577-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/7bc577-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/a9/a9b10c2020883634782df054a8351d87" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/a9/a9b10c2020883634782df054a8351d87" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,73 +41,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-27">
-              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+            <state relative-caret-position="155">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
               <folding>
-                <marker date="1563625227649" expanded="true" signature="40:1749" ph="{...}" />
-                <marker date="1563625227649" expanded="true" signature="92:1747" ph="{...}" />
-                <marker date="1563625227649" expanded="true" signature="337:418" ph="{...}" />
-                <marker date="1563625227649" expanded="true" signature="465:696" ph="{...}" />
-                <marker date="1563625227649" expanded="true" signature="756:821" ph="{...}" />
-                <marker date="1563625227649" expanded="true" signature="861:1741" ph="{...}" />
+                <marker date="1563876867769" expanded="true" signature="40:1624" ph="{...}" />
+                <marker date="1563876867769" expanded="true" signature="92:1622" ph="{...}" />
+                <marker date="1563876867769" expanded="true" signature="337:418" ph="{...}" />
+                <marker date="1563876867769" expanded="true" signature="465:696" ph="{...}" />
+                <marker date="1563876867769" expanded="true" signature="736:1616" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B14123E-EC64-49DC-BDCE-6FE247C0F416/c1/aa71dc2a/Mathf.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CollectibleController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5022">
-              <caret line="191" column="24" selection-start-line="191" selection-start-column="24" selection-end-line="191" selection-end-column="24" />
+            <state relative-caret-position="918">
+              <caret line="34" column="79" selection-start-line="34" selection-start-column="79" selection-end-line="34" selection-end-column="79" />
+              <folding>
+                <marker date="1563887319615" expanded="true" signature="40:1226" ph="{...}" />
+                <marker date="1563887319615" expanded="true" signature="97:1224" ph="{...}" />
+                <marker date="1563887319615" expanded="true" signature="341:685" ph="{...}" />
+                <marker date="1563887319615" expanded="true" signature="395:566" ph="{...}" />
+                <marker date="1563887319615" expanded="true" signature="613:675" ph="{...}" />
+                <marker date="1563887319615" expanded="true" signature="724:1218" ph="{...}" />
+                <marker date="1563887319615" expanded="true" signature="747:906" ph="/* new location on our world, the reason for Vector3 is, as  we are in the 3d world with the camera ... */" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B14123E-EC64-49DC-BDCE-6FE247C0F416/24/16c25024/Input.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScoreController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6426">
-              <caret line="240" column="26" selection-start-line="240" selection-start-column="26" selection-end-line="240" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B14123E-EC64-49DC-BDCE-6FE247C0F416/82/9ecdb32c/GameObject.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9909">
-              <caret line="376" column="62" selection-start-line="376" selection-start-column="62" selection-end-line="376" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E0E21A1B-B641-40D1-ACF2-C5F2999F7FE8/55/3ef65b3a/Collision.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B14123E-EC64-49DC-BDCE-6FE247C0F416/9e/7ffcda41/MonoBehaviour.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B14123E-EC64-49DC-BDCE-6FE247C0F416/ea/69fece57/Transform.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+            <state relative-caret-position="243">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <marker date="1563887330643" expanded="true" signature="6:40" ph="..." />
+                <marker date="1563887330643" expanded="true" signature="62:371" ph="{...}" />
+                <marker date="1563887330643" expanded="true" signature="113:369" ph="{...}" />
+                <marker date="1563887330643" expanded="true" signature="252:363" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,31 +97,69 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A12B6BAE-CE58-40D4-80E0-869A49672B2F/53/e9354ae7/Collider2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B14123E-EC64-49DC-BDCE-6FE247C0F416/ea/69fece57/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B14123E-EC64-49DC-BDCE-6FE247C0F416/9e/7ffcda41/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B14123E-EC64-49DC-BDCE-6FE247C0F416/c1/aa71dc2a/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E0E21A1B-B641-40D1-ACF2-C5F2999F7FE8/55/3ef65b3a/Collision.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B14123E-EC64-49DC-BDCE-6FE247C0F416/82/9ecdb32c/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B14123E-EC64-49DC-BDCE-6FE247C0F416/24/16c25024/Input.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollectibleController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CollectibleController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScoreController.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="38" />
+    <option name="x" value="60" />
+    <option name="y" value="48" />
     <option name="width" value="1856" />
     <option name="height" value="994" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MovingShark" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MovingShark" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MovingShark" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MovingShark" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Scripts" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -160,11 +205,13 @@
       <workItem from="1563273954645" duration="2826000" />
       <workItem from="1563561367265" duration="11000" />
       <workItem from="1563622676874" duration="907000" />
+      <workItem from="1563876021193" duration="267000" />
+      <workItem from="1563876388162" duration="3895000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19764000" />
+    <option name="totallyTimeSpent" value="23926000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -176,8 +223,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="38" width="1856" height="994" extended-state="0" />
-    <editor active="true" />
+    <frame x="60" y="48" width="1856" height="994" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.22277778" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -195,7 +241,7 @@
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Unit Tests" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="13" side_tool="true" visible="true" weight="0.32934132" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32934132" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -217,21 +263,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-          <folding>
-            <marker date="1563625227649" expanded="true" signature="40:1749" ph="{...}" />
-            <marker date="1563625227649" expanded="true" signature="92:1747" ph="{...}" />
-            <marker date="1563625227649" expanded="true" signature="337:418" ph="{...}" />
-            <marker date="1563625227649" expanded="true" signature="465:696" ph="{...}" />
-            <marker date="1563625227649" expanded="true" signature="756:821" ph="{...}" />
-            <marker date="1563625227649" expanded="true" signature="861:1741" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B14123E-EC64-49DC-BDCE-6FE247C0F416/c1/aa71dc2a/Mathf.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5022">
@@ -271,6 +302,133 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
           <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A12B6BAE-CE58-40D4-80E0-869A49672B2F/53/e9354ae7/Collider2D.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2322">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          <folding>
+            <marker date="1563876473456" expanded="true" signature="0:330" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1563876473456" expanded="false" signature="338:489" ph="..." />
+            <marker date="1563876473456" expanded="true" signature="512:24004" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="517:623" ph="///   &lt;para&gt;Parent class for collider types used with 2D gameplay.&lt;/para&gt; ... " />
+            <marker date="1563876473456" expanded="true" signature="802:24002" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="811:950" ph="///   &lt;para&gt;The density of the collider used to calculate its mass (when auto mass is enabled).&lt;/para&gt; ... " />
+            <marker date="1563876473456" expanded="true" signature="1092:1189" ph="///   &lt;para&gt;Is this collider configured as a trigger?&lt;/para&gt; ... " />
+            <marker date="1563876473456" expanded="true" signature="1332:1448" ph="///   &lt;para&gt;Whether the collider is used by an attached effector or not.&lt;/para&gt; ... " />
+            <marker date="1563876473456" expanded="true" signature="1596:1728" ph="///   &lt;para&gt;Sets whether the Collider will be used or not used by a CompositeCollider2D.&lt;/para&gt; ... " />
+            <marker date="1563876473456" expanded="true" signature="1877:2010" ph="///   &lt;para&gt;Get the CompositeCollider2D that is available to be attached to the collider.&lt;/para&gt; ... " />
+            <marker date="1563876473456" expanded="true" signature="2118:2216" ph="///   &lt;para&gt;The local offset of the collider geometry.&lt;/para&gt; ... " />
+            <marker date="1563876473456" expanded="true" signature="2242:2435" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="2258:2358" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="2368:2429" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="2441:2540" ph="///   &lt;para&gt;The Rigidbody2D attached to the Collider2D.&lt;/para&gt; ... " />
+            <marker date="1563876473456" expanded="true" signature="2694:2804" ph="///   &lt;para&gt;The number of separate shaped regions in the collider.&lt;/para&gt; ... " />
+            <marker date="1563876473456" expanded="true" signature="2897:2999" ph="///   &lt;para&gt;The world space bounding area of the collider.&lt;/para&gt; ... " />
+            <marker date="1563876473456" expanded="true" signature="3024:3145" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="3040:3139" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="3400:3511" ph="///   &lt;para&gt;The PhysicsMaterial2D that is applied to this collider.&lt;/para&gt; ... " />
+            <marker date="1563876473456" expanded="true" signature="3730:3824" ph="///   &lt;para&gt;Get the friction used by the collider.&lt;/para&gt; ... " />
+            <marker date="1563876473456" expanded="true" signature="3917:4013" ph="///   &lt;para&gt;Get the bounciness used by the collider.&lt;/para&gt; ... " />
+            <marker date="1563876473456" expanded="true" signature="4108:4433" ph="///   &lt;para&gt;Check whether this collider is touching the collider or not.&lt;/para&gt; ... " />
+            <marker date="1563876473456" expanded="true" signature="4564:5088" ph="///   &lt;para&gt;Check whether this collider is touching the collider or not with the results filtered by the contactF ... " />
+            <marker date="1563876473456" expanded="true" signature="5178:5269" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="5440:5544" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="5550:5983" ph="///   &lt;para&gt;Check whether this collider is touching other colliders or not with the results filtered by the conta ... " />
+            <marker date="1563876473456" expanded="true" signature="6041:6120" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="6235:6327" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="6385:6437" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="6443:6826" ph="///   &lt;para&gt;Checks whether this collider is touching any colliders on the specified layerMask or not.&lt;/para&gt; ... " />
+            <marker date="1563876473456" expanded="true" signature="6975:7230" ph="///   &lt;para&gt;Check if a collider overlaps a point in space.&lt;/para&gt; ... " />
+            <marker date="1563876473456" expanded="true" signature="7274:7338" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="7344:7704" ph="///   &lt;para&gt;Calculates the minimum separation of this collider against another collider.&lt;/para&gt; ... " />
+            <marker date="1563876473456" expanded="true" signature="7775:7836" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="7842:8418" ph="///   &lt;para&gt;Get a list of all colliders that overlap this collider.&lt;/para&gt; ... " />
+            <marker date="1563876473456" expanded="true" signature="8502:8589" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="8678:8765" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="8771:9090" ph="///   &lt;para&gt;Retrieves all contact points for this Collider.&lt;/para&gt; ... " />
+            <marker date="1563876473456" expanded="true" signature="9144:9242" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="9301:9399" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="9405:9924" ph="///   &lt;para&gt;Retrieves all contact points for this Collider, with the results filtered by the contactFilter.&lt;/para ... " />
+            <marker date="1563876473456" expanded="true" signature="10009:10088" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="10178:10257" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="10263:10587" ph="///   &lt;para&gt;Retrieves all colliders in contact with this Collider.&lt;/para&gt; ... " />
+            <marker date="1563876473456" expanded="true" signature="10638:10737" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="10793:10892" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="10898:11423" ph="///   &lt;para&gt;Retrieves all colliders in contact with this Collider, with the results filtered by the contactFilter ... " />
+            <marker date="1563876473456" expanded="true" signature="11505:11585" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="11672:11752" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="11838:12180" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="12282:12610" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="12616:13278" ph="///   &lt;para&gt;Casts the Collider shape into the Scene starting at the Collider position ignoring the Collider itsel ... " />
+            <marker date="1563876473456" expanded="true" signature="13467:13813" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="13930:14045" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="14203:14304" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="14310:15062" ph="///   &lt;para&gt;Casts the Collider shape into the Scene starting at the Collider position ignoring the Collider itsel ... " />
+            <marker date="1563876473456" expanded="true" signature="15288:15407" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="15643:15779" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="16042:16160" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="16398:16533" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="16622:16858" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="16963:17185" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="17305:17534" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="17701:17916" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="17922:18802" ph="///   &lt;para&gt;Casts a ray into the Scene that starts at the Collider position and ignores the Collider itself.&lt;/par ... " />
+            <marker date="1563876473456" expanded="true" signature="19106:19307" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="19427:19539" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="19545:20425" ph="///   &lt;para&gt;Casts a ray into the Scene that starts at the Collider position and ignores the Collider itself.&lt;/par ... " />
+            <marker date="1563876473456" expanded="true" signature="20596:20694" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="20901:21016" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="21217:21314" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="21523:21637" ph="{...}" />
+            <marker date="1563876473456" expanded="true" signature="21643:22043" ph="///   &lt;para&gt;Returns a point on the perimeter of this Collider that is closest to the specified position.&lt;/para&gt; ... " />
+            <marker date="1563876473456" expanded="true" signature="22093:22158" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <marker date="1563876867769" expanded="true" signature="40:1624" ph="{...}" />
+            <marker date="1563876867769" expanded="true" signature="92:1622" ph="{...}" />
+            <marker date="1563876867769" expanded="true" signature="337:418" ph="{...}" />
+            <marker date="1563876867769" expanded="true" signature="465:696" ph="{...}" />
+            <marker date="1563876867769" expanded="true" signature="736:1616" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CollectibleController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="34" column="79" selection-start-line="34" selection-start-column="79" selection-end-line="34" selection-end-column="79" />
+          <folding>
+            <marker date="1563887319615" expanded="true" signature="40:1226" ph="{...}" />
+            <marker date="1563887319615" expanded="true" signature="97:1224" ph="{...}" />
+            <marker date="1563887319615" expanded="true" signature="341:685" ph="{...}" />
+            <marker date="1563887319615" expanded="true" signature="395:566" ph="{...}" />
+            <marker date="1563887319615" expanded="true" signature="613:675" ph="{...}" />
+            <marker date="1563887319615" expanded="true" signature="724:1218" ph="{...}" />
+            <marker date="1563887319615" expanded="true" signature="747:906" ph="/* new location on our world, the reason for Vector3 is, as  we are in the 3d world with the camera ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScoreController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <marker date="1563887330643" expanded="true" signature="6:40" ph="..." />
+            <marker date="1563887330643" expanded="true" signature="62:371" ph="{...}" />
+            <marker date="1563887330643" expanded="true" signature="113:369" ph="{...}" />
+            <marker date="1563887330643" expanded="true" signature="252:363" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

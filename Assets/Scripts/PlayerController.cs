@@ -23,14 +23,9 @@ namespace Boris.Game
                 Vector3.up * Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
         }
 
-        private void OnCollisionEnter2D(Collision2D other)
-        {
-            Debug.Log(other.gameObject.tag);
-        }
-
         private void MovePlayerTouch()
         {
-            // calculate dierction vector
+            // calculate direction vector
             Vector3 touchPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             var direction = new Vector3(touchPosition.x, touchPosition.y, 0) - transform.position;
 
