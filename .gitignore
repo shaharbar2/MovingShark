@@ -61,9 +61,9 @@ sysinfo.txt
 crashlytics-build.properties
 
 # Linux fixes
-./Library/metadata/**
-./Library/PackageCache/**
-./Library/PlayerDataCache/**
-./Library/ShaderCache/**
-./Library/StateDataCache/**
+/Library/metadata/
+/Library/PackageCache/
+/Library/PlayerDataCache/
+/Library/ShaderCache/
+/Library/StateCache/
 
