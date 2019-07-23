@@ -66,6 +66,8 @@ crashlytics-build.properties
 /Library/PlayerDataCache/
 /Library/ShaderCache/
 /Library/StateCache/
+/Library/APIUpdater/
+/Library/UIElements/
 /Library/CurrentLayout.dwlt
 /Library/assetDatabase3
 
