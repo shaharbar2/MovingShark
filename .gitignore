@@ -69,6 +69,7 @@ crashlytics-build.properties
 /Library/APIUpdater/
 /Library/UIElements/
 /Library/shadercompiler-UnityShaderCompiler*.log
+/Library/ScriptAssemblies/LinuxWorkaround.txt 
 /Library/ScriptAssemblies/*.dll
 /Library/CurrentLayout.dwlt
 /Library/assetDatabase3
