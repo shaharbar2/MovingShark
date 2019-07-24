@@ -68,6 +68,7 @@ crashlytics-build.properties
 /Library/StateCache/
 /Library/APIUpdater/
 /Library/UIElements/
+/Library/shadercompiler-UnityShaderCompiler*.log
 /Library/CurrentLayout.dwlt
 /Library/assetDatabase3
 
