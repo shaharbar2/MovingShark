@@ -71,4 +71,4 @@ crashlytics-build.properties
 /Library/shadercompiler-UnityShaderCompiler*.log
 /Library/CurrentLayout.dwlt
 /Library/assetDatabase3
-
+/Library/EditorInstance.json
