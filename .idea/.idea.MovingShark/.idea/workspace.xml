@@ -4,10 +4,13 @@
     <list default="true" id="8b39ac0a-6455-4e1d-890a-6f50fa54fb14" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MovingShark/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MovingShark/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MovingShark/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MovingShark/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollectibleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollectibleController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ART/shark sprites.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ART/shark sprites.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/LastBuild.buildreport" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastBuild.buildreport" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/LastBuild.buildreport" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScoreController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="270">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding>
                 <marker date="1563952165786" expanded="true" signature="6:40" ph="..." />
                 <marker date="1563952165786" expanded="true" signature="62:371" ph="{...}" />
@@ -47,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CollectibleController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+            <state relative-caret-position="351">
+              <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
               <folding>
                 <marker date="1564312226557" expanded="true" signature="40:1299" ph="{...}" />
                 <marker date="1564312226557" expanded="true" signature="97:1297" ph="{...}" />
@@ -65,7 +68,33 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="668">
+              <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+              <folding>
+                <marker date="1564398794281" expanded="true" signature="40:1955" ph="{...}" />
+                <marker date="1564398794281" expanded="true" signature="91:1953" ph="{...}" />
+                <marker date="1564398794281" expanded="true" signature="575:656" ph="{...}" />
+                <marker date="1564398794281" expanded="true" signature="703:934" ph="{...}" />
+                <marker date="1564398794281" expanded="true" signature="974:995" ph="{...}" />
+                <marker date="1564398794281" expanded="true" signature="1052:1401" ph="{...}" />
+                <marker date="1564398794281" expanded="true" signature="1106:1282" ph="{...}" />
+                <marker date="1564398794281" expanded="true" signature="1329:1391" ph="{...}" />
+                <marker date="1564398794281" expanded="true" signature="1440:1947" ph="{...}" />
+                <marker date="1564398794281" expanded="true" signature="1463:1622" ph="/* new location on our world, the reason for Vector3 is, as  we are in the 3d world with the camera ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>scoreController</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -81,6 +110,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B14123E-EC64-49DC-BDCE-6FE247C0F416/82/9ecdb32c/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B14123E-EC64-49DC-BDCE-6FE247C0F416/24/16c25024/Input.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -88,6 +118,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScoreController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CollectibleController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
       </list>
     </option>
   </component>
@@ -151,11 +182,13 @@
       <workItem from="1563876388162" duration="3895000" />
       <workItem from="1563969918255" duration="647000" />
       <workItem from="1564311895058" duration="332000" />
+      <workItem from="1564323177781" duration="884000" />
+      <workItem from="1564388442467" duration="4475000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24905000" />
+    <option name="totallyTimeSpent" value="30264000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -334,6 +367,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CollectibleController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+          <folding>
+            <marker date="1564312226557" expanded="true" signature="40:1299" ph="{...}" />
+            <marker date="1564312226557" expanded="true" signature="97:1297" ph="{...}" />
+            <marker date="1564312226557" expanded="true" signature="401:745" ph="{...}" />
+            <marker date="1564312226557" expanded="true" signature="455:626" ph="{...}" />
+            <marker date="1564312226557" expanded="true" signature="673:735" ph="{...}" />
+            <marker date="1564312226557" expanded="true" signature="784:1291" ph="{...}" />
+            <marker date="1564312226557" expanded="true" signature="807:966" ph="/* new location on our world, the reason for Vector3 is, as  we are in the 3d world with the camera ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScoreController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <marker date="1563952165786" expanded="true" signature="6:40" ph="..." />
+            <marker date="1563952165786" expanded="true" signature="62:371" ph="{...}" />
+            <marker date="1563952165786" expanded="true" signature="113:369" ph="{...}" />
+            <marker date="1563952165786" expanded="true" signature="252:363" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -347,31 +409,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScoreController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        <state relative-caret-position="668">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding>
-            <marker date="1563952165786" expanded="true" signature="6:40" ph="..." />
-            <marker date="1563952165786" expanded="true" signature="62:371" ph="{...}" />
-            <marker date="1563952165786" expanded="true" signature="113:369" ph="{...}" />
-            <marker date="1563952165786" expanded="true" signature="252:363" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CollectibleController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
-          <folding>
-            <marker date="1564312226557" expanded="true" signature="40:1299" ph="{...}" />
-            <marker date="1564312226557" expanded="true" signature="97:1297" ph="{...}" />
-            <marker date="1564312226557" expanded="true" signature="401:745" ph="{...}" />
-            <marker date="1564312226557" expanded="true" signature="455:626" ph="{...}" />
-            <marker date="1564312226557" expanded="true" signature="673:735" ph="{...}" />
-            <marker date="1564312226557" expanded="true" signature="784:1291" ph="{...}" />
-            <marker date="1564312226557" expanded="true" signature="807:966" ph="/* new location on our world, the reason for Vector3 is, as  we are in the 3d world with the camera ... */" />
+            <marker date="1564398794281" expanded="true" signature="40:1955" ph="{...}" />
+            <marker date="1564398794281" expanded="true" signature="91:1953" ph="{...}" />
+            <marker date="1564398794281" expanded="true" signature="575:656" ph="{...}" />
+            <marker date="1564398794281" expanded="true" signature="703:934" ph="{...}" />
+            <marker date="1564398794281" expanded="true" signature="974:995" ph="{...}" />
+            <marker date="1564398794281" expanded="true" signature="1052:1401" ph="{...}" />
+            <marker date="1564398794281" expanded="true" signature="1106:1282" ph="{...}" />
+            <marker date="1564398794281" expanded="true" signature="1329:1391" ph="{...}" />
+            <marker date="1564398794281" expanded="true" signature="1440:1947" ph="{...}" />
+            <marker date="1564398794281" expanded="true" signature="1463:1622" ph="/* new location on our world, the reason for Vector3 is, as  we are in the 3d world with the camera ... */" />
           </folding>
         </state>
       </provider>
