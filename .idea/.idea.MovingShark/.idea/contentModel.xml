@@ -11,6 +11,7 @@
           <e p="EnemyController.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="ScoreController.cs" t="Include" />
+          <e p="SpawnController.cs" t="Include" />
         </e>
       </e>
       <e p="MovingShark.sln" t="IncludeFlat" />

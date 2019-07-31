@@ -4,59 +4,52 @@ namespace Boris.Game
 {
     public class EnemyController : MonoBehaviour
     {
-        [SerializeField] private float moveSpeed = 5.0f;
-        [SerializeField] private float rotateSpeed = 5.0f;
-        [SerializeField] private ScoreController scoreController;
-        [SerializeField] private int scoreWorth = 10;
-        [SerializeField] private float borderOffset = 20.0f;
-        [SerializeField] private float wallOffset = 100.0f;
+        [SerializeField] private float moveSpeed = 0.5f;
+        [SerializeField] private float rotateSpeed = 10.0f;
+        [SerializeField] private PlayerController playerController;
 
         private Quaternion targetRotation;
         private const double EPSILON_MOVEMENT = 0.05;
 
+        public void Init(PlayerController player)
+        {
+            playerController = player;
+        }
+
         void Update()
         {
-            MovePlayerKeys();
-            MovePlayerTouch();
-        }
-        
-        private void MovePlayerKeys()
-        {
-            transform.position += 
-                Vector3.right * Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed +
-                Vector3.up * Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
+            MoveEnemy();
         }
 
-        private void MovePlayerTouch()
-        {
 
+        private void MoveEnemy()
+        {
+            // calculate direction vector
+            Vector3 touchPosition = playerController.transform.position;
+            var direction = new Vector3(touchPosition.x, touchPosition.y, 0) - transform.position;
+
+            // check if the shark reached the target
+            if (!(direction.magnitude > EPSILON_MOVEMENT)) return;
+
+            // calculate the target angle
+            var angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+
+            targetRotation = Quaternion.AngleAxis(angle, Vector3.forward);
+
+            // interpolate rotate into the target angle
+            transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, rotateSpeed * Time.deltaTime);
+
+            // progress toward to relative new direction
+            transform.position += moveSpeed * Time.deltaTime * transform.right;
         }
 
-        private void OnTriggerEnter2D(Collider2D other)
+        private void OnCollisionEnter2D(Collision2D other)
         {
-            if (other.CompareTag("Player"))
+            Debug.Log(other.gameObject.tag);
+            if (other.gameObject.CompareTag("EnemyCollision"))
             {
-                Debug.Log(other.gameObject.tag);
-                scoreController.OnChangeScore(-1 * scoreWorth);
-                ChangeLocation();
-
+                Destroy(this.gameObject);
             }
-            else if (other.CompareTag("Wall"))
-            {
-                ChangeLocation();
-            }
-        }
-
-        private void ChangeLocation()
-        {
-            // new location on our world, the reason for Vector3 is, as  we are in the 3d world with the camera
-            // z = 10, puts the coin in front of the camera
-            var newSpawnPoint = new Vector3(
-                Random.Range(0 + borderOffset, Screen.width - borderOffset),
-                Random.Range(0 + borderOffset + wallOffset, Screen.height - borderOffset),
-                10);
-
-            transform.position = Camera.main.ScreenToWorldPoint(newSpawnPoint);
         }
     }
 }

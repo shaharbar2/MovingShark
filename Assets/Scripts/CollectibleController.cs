@@ -6,8 +6,14 @@ namespace Boris.Game
     {
         [SerializeField] private int scoreWorth = 10;
         [SerializeField] private float borderOffset = 20.0f;
-        [SerializeField] private float wallOffset = 100.0f;
         [SerializeField] private ScoreController scoreController;
+
+        private float wallOffset = 100.0f;
+
+        void Awake()
+        {
+            wallOffset = Screen.height * 0.25f;
+        }
 
         private void OnTriggerEnter2D(Collider2D other)
         {

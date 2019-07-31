@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using UnityEditor;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Boris.Game
 {
@@ -42,6 +44,16 @@ namespace Boris.Game
 
             // progress toward to relative new direction
             transform.position += moveSpeed * Time.deltaTime * transform.right;
+        }
+
+
+        private void OnCollisionEnter2D(Collision2D other)
+        {
+            Debug.Log(other.gameObject.tag);
+            if (other.gameObject.CompareTag("EnemyCollision"))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
         }
     }
 }
