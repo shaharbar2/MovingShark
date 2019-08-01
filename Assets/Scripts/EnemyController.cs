@@ -4,12 +4,12 @@ namespace Boris.Game
 {
     public class EnemyController : MonoBehaviour
     {
-        [SerializeField] private float moveSpeed = 0.5f;
-        [SerializeField] private float rotateSpeed = 10.0f;
+        [SerializeField] private float moveSpeed = 0.3f;
+        [SerializeField] private float rotateSpeed = 4.0f;
         [SerializeField] private PlayerController playerController;
 
         private Quaternion targetRotation;
-        private const double EPSILON_MOVEMENT = 0.05;
+        private const double EPSILON_MOVEMENT = 0.08;
 
         public void Init(PlayerController player)
         {

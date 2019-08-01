@@ -6,7 +6,7 @@ namespace Boris.Game
 {
     public class PlayerController : MonoBehaviour
     {
-        [SerializeField] private float moveSpeed = 10.0f;
+        [SerializeField] private float moveSpeed = 30.0f;
         [SerializeField] private float rotateSpeed = 10.0f;
 
         private Quaternion targetRotation;
