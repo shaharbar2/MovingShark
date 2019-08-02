@@ -8,13 +8,6 @@ namespace Boris.Game
         [SerializeField] private float borderOffset = 20.0f;
         [SerializeField] private ScoreController scoreController;
 
-        private float wallOffset = 100.0f;
-
-        void Awake()
-        {
-            wallOffset = Screen.height * 0.25f;
-        }
-
         private void OnTriggerEnter2D(Collider2D other)
         {
             if (other.CompareTag("Player"))
@@ -36,7 +29,7 @@ namespace Boris.Game
             // z = 10, puts the coin in front of the camera
             var newSpawnPoint = new Vector3(
                 Random.Range(0 + borderOffset, Screen.width - borderOffset),
-                Random.Range(0 + borderOffset + wallOffset, Screen.height - borderOffset),
+                Random.Range(0 + borderOffset, Screen.height - borderOffset),
                 10);
 
             transform.position = Camera.main.ScreenToWorldPoint(newSpawnPoint);

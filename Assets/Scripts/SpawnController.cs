@@ -9,8 +9,6 @@ namespace Boris.Game
         [SerializeField] private EnemyController enemyController;
         [SerializeField] private int scoreWorth = 10;
         [SerializeField] private float borderOffset = 20.0f;
-        [SerializeField] private float wallOffset = 100.0f;
-
 
         private void Start()
         {
@@ -23,7 +21,7 @@ namespace Boris.Game
             // z = 10, puts the coin in front of the camera
             var newSpawnPoint = new Vector3(
                 Random.Range(0 + borderOffset, Screen.width - borderOffset),
-                Random.Range(0 + borderOffset + wallOffset, Screen.height - borderOffset),
+                Random.Range(0 + borderOffset, Screen.height - borderOffset),
                 10);
 
             // create new game object in Unity
