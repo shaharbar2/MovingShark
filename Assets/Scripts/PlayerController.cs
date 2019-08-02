@@ -10,7 +10,7 @@ namespace Boris.Game
         [SerializeField] private float rotateSpeed = 10.0f;
 
         private Quaternion targetRotation;
-        private const double EPSILON_MOVEMENT = 0.05;
+        private const double EPSILON_MOVEMENT = 0.1;
 
         void Update()
         {
