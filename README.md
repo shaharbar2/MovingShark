@@ -8,4 +8,4 @@ Navigate ClassyShark to collect coins, while avoing mines, by tapping on the scr
 ## Rules
 1. ClassyShark hits coin - credit added
 2. ClassyShark hits mine - game over :(
-3. Two mines hit each other, theu both blow away
+3. Two mines hit each other, they both blow away
