@@ -1,6 +1,6 @@
 # MovingShark
 
-![alt text]https://github.com/borisf/MovingShark/blob/master/Assets/ART/GameScreen.png)
+![alt text](https://github.com/borisf/MovingShark/blob/master/Assets/ART/GameScreen.png)
 
 
 Navigate ClassyShark to collect coins, while avoing mines, by tapping on the screen.
