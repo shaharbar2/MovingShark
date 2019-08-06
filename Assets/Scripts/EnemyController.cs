@@ -7,6 +7,7 @@ namespace Boris.Game
         [SerializeField] private float moveSpeed = 0.3f;
         [SerializeField] private float rotateSpeed = 4.0f;
         [SerializeField] private PlayerController playerController;
+        [SerializeField] private GameObject explodeParticle;
 
         private Quaternion targetRotation;
         private const double EPSILON_MOVEMENT = 0.08;
@@ -48,7 +49,10 @@ namespace Boris.Game
             Debug.Log(other.gameObject.tag);
             if (other.gameObject.CompareTag("EnemyCollision"))
             {
-                Destroy(this.gameObject);
+                // create new game object in Unity
+
+                    Instantiate(explodeParticle, transform.position, Quaternion.identity);
+                    Destroy(this.gameObject);
             }
         }
     }

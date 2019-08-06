@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b39ac0a-6455-4e1d-890a-6f50fa54fb14" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollectibleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollectibleController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpawnController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpawnController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/LastBuild.buildreport" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastBuild.buildreport" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/AnnotationManager" beforeDir="false" afterPath="$PROJECT_DIR$/Library/AnnotationManager" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,10 +17,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
+            <state relative-caret-position="243">
               <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
               <folding>
                 <marker date="1564731750330" expanded="true" signature="6:72" ph="..." />
@@ -37,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SpawnController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+            <state relative-caret-position="432">
+              <caret line="28" column="20" selection-start-line="26" selection-start-column="11" selection-end-line="30" selection-end-column="40" />
               <folding>
                 <marker date="1564731702474" expanded="true" signature="40:1201" ph="{...}" />
                 <marker date="1564731702474" expanded="true" signature="91:1199" ph="{...}" />
@@ -64,19 +66,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CollectibleController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+            <state relative-caret-position="263">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
-                <marker date="1564731744970" expanded="true" signature="40:1226" ph="{...}" />
-                <marker date="1564731744970" expanded="true" signature="97:1224" ph="{...}" />
-                <marker date="1564731744970" expanded="true" signature="341:685" ph="{...}" />
-                <marker date="1564731744970" expanded="true" signature="395:566" ph="{...}" />
-                <marker date="1564731744970" expanded="true" signature="613:675" ph="{...}" />
-                <marker date="1564731744970" expanded="true" signature="724:1218" ph="{...}" />
-                <marker date="1564731744970" expanded="true" signature="747:906" ph="/* new location on our world, the reason for Vector3 is, as  we are in the 3d world with the camera ... */" />
+                <marker date="1565095402096" expanded="true" signature="40:1387" ph="{...}" />
+                <marker date="1565095402096" expanded="true" signature="97:1385" ph="{...}" />
+                <marker date="1565095402096" expanded="true" signature="403:747" ph="{...}" />
+                <marker date="1565095402096" expanded="true" signature="457:628" ph="{...}" />
+                <marker date="1565095402096" expanded="true" signature="675:737" ph="{...}" />
+                <marker date="1565095402096" expanded="true" signature="786:1379" ph="{...}" />
+                <marker date="1565095402096" expanded="true" signature="908:1067" ph="/* new location on our world, the reason for Vector3 is, as  we are in the 3d world with the camera ... */" />
               </folding>
             </state>
           </provider>
@@ -85,16 +87,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+            <state relative-caret-position="243">
+              <caret line="9" column="60" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="60" />
               <folding>
-                <marker date="1564688622283" expanded="true" signature="40:1722" ph="{...}" />
-                <marker date="1564688622283" expanded="true" signature="91:1720" ph="{...}" />
-                <marker date="1564688622283" expanded="true" signature="430:489" ph="{...}" />
-                <marker date="1564688622283" expanded="true" signature="512:557" ph="{...}" />
-                <marker date="1564688622283" expanded="true" signature="592:1456" ph="{...}" />
-                <marker date="1564688622283" expanded="true" signature="1516:1714" ph="{...}" />
-                <marker date="1564688622283" expanded="true" signature="1634:1704" ph="{...}" />
+                <marker date="1565094273762" expanded="true" signature="40:1930" ph="{...}" />
+                <marker date="1565094273762" expanded="true" signature="91:1928" ph="{...}" />
+                <marker date="1565094273762" expanded="true" signature="491:550" ph="{...}" />
+                <marker date="1565094273762" expanded="true" signature="573:618" ph="{...}" />
+                <marker date="1565094273762" expanded="true" signature="653:1517" ph="{...}" />
+                <marker date="1565094273762" expanded="true" signature="1577:1922" ph="{...}" />
+                <marker date="1565094273762" expanded="true" signature="1695:1912" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -121,6 +123,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollectibleController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B14123E-EC64-49DC-BDCE-6FE247C0F416/82/9ecdb32c/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCA1E226-CD41-46B0-AD69-668571CEF839/b5/94b837d6/ParticleSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B14123E-EC64-49DC-BDCE-6FE247C0F416/24/16c25024/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -128,10 +131,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/ScoreController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CollectibleController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CollectibleController.cs" />
       </list>
     </option>
   </component>
@@ -200,11 +203,12 @@
       <workItem from="1564573188668" duration="6485000" />
       <workItem from="1564684797054" duration="1558000" />
       <workItem from="1564728223185" duration="1328000" />
+      <workItem from="1565094116094" duration="1286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39764000" />
+    <option name="totallyTimeSpent" value="41050000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -376,22 +380,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-          <folding>
-            <marker date="1564688622283" expanded="true" signature="40:1722" ph="{...}" />
-            <marker date="1564688622283" expanded="true" signature="91:1720" ph="{...}" />
-            <marker date="1564688622283" expanded="true" signature="430:489" ph="{...}" />
-            <marker date="1564688622283" expanded="true" signature="512:557" ph="{...}" />
-            <marker date="1564688622283" expanded="true" signature="592:1456" ph="{...}" />
-            <marker date="1564688622283" expanded="true" signature="1516:1714" ph="{...}" />
-            <marker date="1564688622283" expanded="true" signature="1634:1704" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B14123E-EC64-49DC-BDCE-6FE247C0F416/9e/7ffcda41/MonoBehaviour.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2457">
@@ -399,16 +387,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SpawnController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        <state relative-caret-position="243">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
           <folding>
-            <marker date="1564731702474" expanded="true" signature="40:1201" ph="{...}" />
-            <marker date="1564731702474" expanded="true" signature="91:1199" ph="{...}" />
-            <marker date="1564731702474" expanded="true" signature="433:511" ph="{...}" />
-            <marker date="1564731702474" expanded="true" signature="541:1193" ph="{...}" />
-            <marker date="1564731702474" expanded="true" signature="564:723" ph="/* new location on our world, the reason for Vector3 is, as  we are in the 3d world with the camera ... */" />
+            <marker date="1564731750330" expanded="true" signature="6:72" ph="..." />
+            <marker date="1564731750330" expanded="true" signature="94:1976" ph="{...}" />
+            <marker date="1564731750330" expanded="true" signature="146:1974" ph="{...}" />
+            <marker date="1564731750330" expanded="true" signature="390:471" ph="{...}" />
+            <marker date="1564731750330" expanded="true" signature="518:749" ph="{...}" />
+            <marker date="1564731750330" expanded="true" signature="789:1669" ph="{...}" />
+            <marker date="1564731750330" expanded="true" signature="1730:1968" ph="{...}" />
+            <marker date="1564731750330" expanded="true" signature="1848:1958" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -425,35 +416,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CollectibleController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SpawnController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+          <caret line="28" column="20" selection-start-line="26" selection-start-column="11" selection-end-line="30" selection-end-column="40" />
           <folding>
-            <marker date="1564731744970" expanded="true" signature="40:1226" ph="{...}" />
-            <marker date="1564731744970" expanded="true" signature="97:1224" ph="{...}" />
-            <marker date="1564731744970" expanded="true" signature="341:685" ph="{...}" />
-            <marker date="1564731744970" expanded="true" signature="395:566" ph="{...}" />
-            <marker date="1564731744970" expanded="true" signature="613:675" ph="{...}" />
-            <marker date="1564731744970" expanded="true" signature="724:1218" ph="{...}" />
-            <marker date="1564731744970" expanded="true" signature="747:906" ph="/* new location on our world, the reason for Vector3 is, as  we are in the 3d world with the camera ... */" />
+            <marker date="1564731702474" expanded="true" signature="40:1201" ph="{...}" />
+            <marker date="1564731702474" expanded="true" signature="91:1199" ph="{...}" />
+            <marker date="1564731702474" expanded="true" signature="433:511" ph="{...}" />
+            <marker date="1564731702474" expanded="true" signature="541:1193" ph="{...}" />
+            <marker date="1564731702474" expanded="true" signature="564:723" ph="/* new location on our world, the reason for Vector3 is, as  we are in the 3d world with the camera ... */" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        <state relative-caret-position="243">
+          <caret line="9" column="60" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="60" />
           <folding>
-            <marker date="1564731750330" expanded="true" signature="6:72" ph="..." />
-            <marker date="1564731750330" expanded="true" signature="94:1976" ph="{...}" />
-            <marker date="1564731750330" expanded="true" signature="146:1974" ph="{...}" />
-            <marker date="1564731750330" expanded="true" signature="390:471" ph="{...}" />
-            <marker date="1564731750330" expanded="true" signature="518:749" ph="{...}" />
-            <marker date="1564731750330" expanded="true" signature="789:1669" ph="{...}" />
-            <marker date="1564731750330" expanded="true" signature="1730:1968" ph="{...}" />
-            <marker date="1564731750330" expanded="true" signature="1848:1958" ph="{...}" />
+            <marker date="1565094273762" expanded="true" signature="40:1930" ph="{...}" />
+            <marker date="1565094273762" expanded="true" signature="91:1928" ph="{...}" />
+            <marker date="1565094273762" expanded="true" signature="491:550" ph="{...}" />
+            <marker date="1565094273762" expanded="true" signature="573:618" ph="{...}" />
+            <marker date="1565094273762" expanded="true" signature="653:1517" ph="{...}" />
+            <marker date="1565094273762" expanded="true" signature="1577:1922" ph="{...}" />
+            <marker date="1565094273762" expanded="true" signature="1695:1912" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCA1E226-CD41-46B0-AD69-668571CEF839/b5/94b837d6/ParticleSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3267">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CollectibleController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <marker date="1565095402096" expanded="true" signature="40:1387" ph="{...}" />
+            <marker date="1565095402096" expanded="true" signature="97:1385" ph="{...}" />
+            <marker date="1565095402096" expanded="true" signature="403:747" ph="{...}" />
+            <marker date="1565095402096" expanded="true" signature="457:628" ph="{...}" />
+            <marker date="1565095402096" expanded="true" signature="675:737" ph="{...}" />
+            <marker date="1565095402096" expanded="true" signature="786:1379" ph="{...}" />
+            <marker date="1565095402096" expanded="true" signature="908:1067" ph="/* new location on our world, the reason for Vector3 is, as  we are in the 3d world with the camera ... */" />
           </folding>
         </state>
       </provider>
