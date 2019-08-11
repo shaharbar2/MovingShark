@@ -7,6 +7,7 @@ namespace Boris.Game
         [SerializeField] private int scoreWorth = 10;
         [SerializeField] private float borderOffset = 20.0f;
         [SerializeField] private ScoreController scoreController;
+        [SerializeField] private ParticleSystem coinParticle;
 
         private void OnTriggerEnter2D(Collider2D other)
         {
@@ -25,7 +26,10 @@ namespace Boris.Game
 
         private void ChangeLocation()
         {
-            // new location on our world, the reason for Vector3 is, as  we are in the 3d world with the camera
+            coinParticle.transform.position = transform.position;
+            coinParticle.Play();
+
+           // new location on our world, the reason for Vector3 is, as  we are in the 3d world with the camera
             // z = 10, puts the coin in front of the camera
             var newSpawnPoint = new Vector3(
                 Random.Range(0 + borderOffset, Screen.width - borderOffset),
