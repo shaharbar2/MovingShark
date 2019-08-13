@@ -52,7 +52,7 @@ namespace Boris.Game
                 // create new game object in Unity
 
                     Instantiate(explodeParticle, transform.position, Quaternion.identity);
-                    Destroy(this.gameObject);
+                    PoolManager.SharedInstance.ReturnPooledObject(this.gameObject);
             }
         }
     }

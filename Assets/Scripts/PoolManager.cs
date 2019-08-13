@@ -15,59 +15,41 @@ namespace Boris.Game
     public class PoolManager : MonoBehaviour
     {
         public static PoolManager SharedInstance;
-        public List<ObjectPoolItem> itemsToPool;
-        public List<GameObject> pooledObjects;
+        
+        public Dictionary<string,Stack<GameObject>> itemsToPool = new Dictionary<string, Stack<GameObject>>();
 
         void Awake()
         {
             SharedInstance = this;
         }
 
-        void Start()
+        public void InitPool(GameObject poolName, int amount)
         {
-            pooledObjects = new List<GameObject>();
-
-            foreach (ObjectPoolItem item in itemsToPool)
+            var poolParent = new GameObject(poolName.name);
+            poolParent.transform.SetParent(transform);
+            
+            itemsToPool.Add(poolName.name, new Stack<GameObject>());
+            
+            for (int i = 0; i < amount; i++)
             {
-                for (int i = 0; i < item.amountToPool; i++)
-                {
-                    GameObject obj = (GameObject) Instantiate(item.objectToPool);
-                    obj.SetActive(false);
-                    pooledObjects.Add(obj);
-                }
+                var obj = Instantiate(poolName, poolParent.transform);
+                obj.name = poolName.name;
+                obj.gameObject.SetActive(false);
+                
+                itemsToPool[poolName.name].Push(obj);
             }
         }
-
-        public GameObject GetPooledObject(string tag)
+        
+        public GameObject GetPooledObject(string poolName)
         {
-            foreach (var t in pooledObjects)
-            {
-                if (!t.activeInHierarchy && t.tag == tag)
-                {
-                    return t;
-                }
-            }
-
-            foreach (ObjectPoolItem item in itemsToPool)
-            {
-                if (item.objectToPool.tag == tag)
-                {
-                    if (item.shouldExpand)
-                    {
-                        GameObject obj = (GameObject) Instantiate(item.objectToPool);
-                        obj.SetActive(false);
-                        pooledObjects.Add(obj);
-                        return obj;
-                    }
-                }
-            }
-
-            return null;
+            var obj = itemsToPool[poolName].Pop();
+            return obj;
         }
 
-        void Update()
+        public void ReturnPooledObject(GameObject poolName)
         {
-
+            poolName.gameObject.SetActive(false);
+            itemsToPool[poolName.name].Push(poolName);
         }
     }
 }
