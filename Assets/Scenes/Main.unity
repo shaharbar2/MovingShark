@@ -5264,7 +5264,7 @@ ParticleSystem:
 --- !u!199 &832797269
 ParticleSystemRenderer:
   serializedVersion: 6
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5352,6 +5352,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 512ecce7b5eb4ef718366ca3c7edea0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explodeParticle: {fileID: 6760269055033442527, guid: 41710d09a100d4e69add1a1b77fef425,
+    type: 3}
 --- !u!4 &969486146
 Transform:
   m_ObjectHideFlags: 0

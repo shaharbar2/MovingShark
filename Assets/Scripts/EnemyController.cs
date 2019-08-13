@@ -22,7 +22,6 @@ namespace Boris.Game
             MoveEnemy();
         }
 
-
         private void MoveEnemy()
         {
             // calculate direction vector
@@ -49,10 +48,10 @@ namespace Boris.Game
             Debug.Log(other.gameObject.tag);
             if (other.gameObject.CompareTag("EnemyCollision"))
             {
-                // create new game object in Unity
-
-                    Instantiate(explodeParticle, transform.position, Quaternion.identity);
-                    PoolManager.SharedInstance.ReturnPooledObject(this.gameObject);
+                var explosion = PoolManager.SharedInstance.GetPooledObject(explodeParticle.name);
+                explosion.transform.position = transform.position;
+                explosion.SetActive(true);
+                PoolManager.SharedInstance.ReturnPooledObject(this.gameObject);
             }
         }
     }
