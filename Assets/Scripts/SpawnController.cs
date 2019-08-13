@@ -12,7 +12,7 @@ namespace Boris.Game
 
         private void Start()
         {
-            PoolManager.SharedInstance.InitPool(enemyController.gameObject, 15);
+            GameManager.instance.pool.InitPool(enemyController.gameObject, 15);
             InvokeRepeating(nameof(Spawn), 0, spawnTime);
         }
 
@@ -26,7 +26,7 @@ namespace Boris.Game
                 10);
 
             // create new game object in Unity
-            EnemyController temp = PoolManager.SharedInstance.GetPooledObject(enemyController.name).GetComponent<EnemyController>();
+            EnemyController temp = GameManager.instance.pool.GetPooledObject(enemyController.name).GetComponent<EnemyController>();
             temp.transform.position = Camera.main.ScreenToWorldPoint(newSpawnPoint);
             temp.gameObject.SetActive(true);
             temp.Init(playerController);

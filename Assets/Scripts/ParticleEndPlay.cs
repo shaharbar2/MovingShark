@@ -17,7 +17,7 @@ namespace Boris.Game
         {
             if (!particleSystem.isPlaying)
             {
-                PoolManager.SharedInstance.ReturnPooledObject(this.gameObject);
+               GameManager.instance.pool.ReturnPooledObject(this.gameObject);
             }
         }
     }

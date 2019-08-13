@@ -705,10 +705,10 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: 38736b08-cddb-4d27-9a49-26d03edd6bfc
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: MovingShark
+  organizationId: unity_7grbrtn9fjskgw
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

@@ -3,23 +3,13 @@ using System.Collections.Generic;
 
 namespace Boris.Game
 {
-    [System.Serializable]
-    public class ObjectPoolItem
-    {
-        public GameObject objectToPool;
-        public int amountToPool;
-        public bool shouldExpand;
-    }
-
     public class PoolManager : MonoBehaviour
     {
-        public static PoolManager SharedInstance;
         public Dictionary<string,Stack<GameObject>> itemsToPool = new Dictionary<string, Stack<GameObject>>();
         [SerializeField] private GameObject explodeParticle;
 
         void Awake()
         {
-            SharedInstance = this;
             InitPool(explodeParticle, 6);
         }
 
