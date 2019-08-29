@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b39ac0a-6455-4e1d-890a-6f50fa54fb14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/ART/Shaders.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ART/Shaders/WaterDisplacement.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ART/Shaders/WaterDisplacement.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ART/Shaders/animated_displacment_map.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ART/Shaders/animated_displacment_map.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ART/Shaders/water.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ART/Shaders/water.jpeg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MovingShark/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MovingShark/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MovingShark/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MovingShark/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ART/Materials/Particles/SharkBubbles.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ART/Materials/Particles/SharkBubbles.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptMapper" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptMapper" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ShaderCache.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
-    </list>
+    <list default="true" id="8b39ac0a-6455-4e1d-890a-6f50fa54fb14" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +121,7 @@
       <workItem from="1566070635368" duration="519000" />
       <workItem from="1566804150922" duration="15000" />
       <workItem from="1566804196512" duration="2073000" />
-      <workItem from="1566808144028" duration="1396000" />
+      <workItem from="1566808144028" duration="2004000" />
     </task>
     <servers />
   </component>
