@@ -16,6 +16,7 @@
           <e p="CollectibleController.cs" t="Include" />
           <e p="EnemyController.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
+          <e p="MenuManager.cs" t="Include" />
           <e p="ParticleEndPlay.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="PoolManager.cs" t="Include" />

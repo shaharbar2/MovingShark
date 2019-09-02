@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections.Generic;
-using System.Security.Cryptography;
+using UnityEngine.SceneManagement;
 
 namespace Boris.Game
 {
@@ -14,12 +13,23 @@ namespace Boris.Game
         {
             if (instance != null)
             {
-                Destroy(this);
+                Destroy(this.gameObject);
             }
 
             instance = this;
 
-            //DontDestroyOnLoad(this);
+            DontDestroyOnLoad(this);
+        }
+
+        public void LoadGame()
+        {
+            SceneManager.LoadScene(1);
+        }
+
+        public void EndGame()
+        {
+            pool.ResetPools();
+            SceneManager.LoadScene(0);
         }
     }
 }

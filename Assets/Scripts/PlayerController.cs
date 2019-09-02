@@ -52,7 +52,7 @@ namespace Boris.Game
             Debug.Log(other.gameObject.tag);
             if (other.gameObject.CompareTag("EnemyCollision"))
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                GameManager.instance.EndGame();
             }
         }
     }
