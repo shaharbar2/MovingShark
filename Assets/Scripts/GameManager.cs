@@ -17,18 +17,24 @@ namespace Boris.Game
             }
 
             instance = this;
-
+            
+            ads = new GameObject("AdsManager", typeof(AdsManager)).GetComponent<AdsManager>();
+            ads.gameObject.transform.SetParent(this.transform);
+            
             DontDestroyOnLoad(this);
         }
 
         public void LoadGame()
         {
+            pool = new GameObject("PoolManager", typeof(PoolManager)).GetComponent<PoolManager>();
+            DontDestroyOnLoad(pool);
+            
             SceneManager.LoadScene(1);
         }
 
         public void EndGame()
         {
-            pool.ResetPools();
+            Destroy(pool.gameObject);
             SceneManager.LoadScene(0);
         }
     }

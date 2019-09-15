@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace Boris.Game
 {
@@ -9,11 +8,10 @@ namespace Boris.Game
         public Dictionary<string,Stack<GameObject>> itemsToPool = new Dictionary<string, Stack<GameObject>>();
         //public Dictionary<string,List<GameObject>> itemsNotInPool = new Dictionary<string, List<GameObject>>();
         [SerializeField] private GameObject explodeParticle;
-        [SerializeField] private GameObject self;
 
         void Awake()
         {
-            self = gameObject;
+            explodeParticle = (GameObject) Resources.Load("ExplodedParticle");
             InitPool(explodeParticle, 6);
         }
 
@@ -21,7 +19,7 @@ namespace Boris.Game
         {
             var poolParent = new GameObject(poolName.name);
 
-            poolParent.transform.SetParent(self.transform);
+            poolParent.transform.SetParent(this.gameObject.transform);
             
             itemsToPool.Add(poolName.name, new Stack<GameObject>());
             //itemsNotInPool.Add(poolName.name, new List<GameObject>());

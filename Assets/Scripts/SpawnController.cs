@@ -12,10 +12,15 @@ namespace Boris.Game
 
         private void Start()
         {
+            Invoke(nameof(Init), 0.5f);
+        }
+
+        private void Init()
+        {
             GameManager.instance.pool.InitPool(enemyController.gameObject, 15);
             InvokeRepeating(nameof(Spawn), 0, spawnTime);
         }
-
+        
         private void Spawn()
         {
             // new location on our world, the reason for Vector3 is, as  we are in the 3d world with the camera

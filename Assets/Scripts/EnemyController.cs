@@ -45,7 +45,6 @@ namespace Boris.Game
 
         private void OnCollisionEnter2D(Collision2D other)
         {
-            Debug.Log(other.gameObject.tag);
             if (other.gameObject.CompareTag("EnemyCollision"))
             {
                 var explosion = GameManager.instance.pool.GetPooledObject(explodeParticle.name);
